@@ -15,8 +15,7 @@ namespace _2022_09_04_database_link_new
 
         public DBConnection()
         {
-            con = new SqlConnection("Data Source=DESKTOP-0UJVAR6;Initial Catalog=Bank2;Integrated Security=True");
-            
+            con = new SqlConnection("Data Source=DESKTOP-0UJVAR6;Initial Catalog=Bank3;Integrated Security=True");
         }
 
         public int Save_Update_Delete(string q)
